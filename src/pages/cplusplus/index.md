@@ -7,8 +7,7 @@ title: C++
 
 * C++ is a general purpose programming language which has been used since the 1990's
 * It was designed by Bjarne Stroustrup under with the name "C with classes".
-* It is widely based on the programming language C and thus got it's name.
-* It is actually an Object Oriented version of C and adds more stuff for programmers.
+* It is actually an Object Oriented version of C and adds the abilitiy to manipulate objects such as functions and classes.
 
 
 ### Here is your 1st program in C++ -
@@ -18,7 +17,7 @@ title: C++
 using namespace std ;
 int main()
 {
-    cout<<"Hello World"<<endl;
+    cout<<"Hello World!"<<endl;
     return 0;
 }
 ```
@@ -26,10 +25,10 @@ int main()
 ### The Output of this program will simply be :
 
 ```
-Hello World !
+Hello World!
 ```
 
-Now , let's break down the code :
+Now, let's break down the code :
 
 #### Line 1 and 2
 
@@ -38,9 +37,9 @@ Now , let's break down the code :
 using namespace std;
 ```
 
-* The 1st line tells the computer to use the "iostream" header file for this specific program . There are many other header files which are requireed for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension
+* The 1st line tells the computer to use the "iostream" header file for this specific program. A header file is pre-written C++ code that is stored in a seperate file. There are many other header files which are required for a specific program to run properly. Some of them are : math , vector and string. Header files are generally represented by a ".h" extension. 
 * `iostream` stands for input-output stream . The "iostream" file contains code for allowing the computer to take input and generate an output, using the C++ language.
-* The second line tells the computer to use the standard namespace which includes features of standard C++ .
+* The second line tells the computer to use the standard namespace which includes features of standard C++.
 
 #### Line 3 and 4
 
@@ -49,7 +48,7 @@ int main()
 {
 ```
 
-* C++ starts execution of a program from the -main function- `int main()` . During execution , the computer starts running the code from every line from `{`(opening bracket) till `}`(closing bracket)
+* C++ starts execution of a program from the -main function- `int main()` . During execution , the computer starts running the code from every line from `{`(opening bracket) until `}`(closing bracket)
   **NOTE : Every function starts with an opening curly brace "{" and ends with a closing curly brace "}"**
 * Line 4 indicates the start of the main() function. 
 
